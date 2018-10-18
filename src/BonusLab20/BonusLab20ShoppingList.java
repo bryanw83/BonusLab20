@@ -84,7 +84,8 @@ public class BonusLab20ShoppingList {
 				
 			}System.out.printf("%-8s %-10s %n" , userFoods.get(n), Double.toString(userPrices.get(n)));
 		}
-		System.out.println(getAverage(userPrices));
+		System.out.println(Double.toString(getAverage(userPrices)));
+	
 	}
 
 	public static String checkSelection (String input, ArrayList<String> n){ 
